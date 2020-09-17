@@ -2,6 +2,16 @@
   box-shadow: 0px 0px 5px 2px #ccc;
   padding: 10px 15px;
   border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.dashboardTopCardMainDiv:hover {
+  background-color: #e63c49;
+}
+.dashboardTopCardMainDiv:hover .topCardLabel {
+  color: #fff;
+}
+.dashboardTopCardMainDiv:hover .cardIcon {
+  background-color: transparent;
 }
 .cardIcon {
   background-color: #8267f5;
@@ -9,4 +19,5 @@
   font-size: 30px;
   padding: 16px 10px;
   border-radius: 50%;
+  transition: all 0.5s ease;
 }
