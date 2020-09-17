@@ -1,0 +1,16 @@
+.menteesListFooterLabel {
+  font-size: 11px;
+}
+.pageNoLabel {
+  color: #fff;
+  background-color: #b6a6f5;
+  padding: 0px 11px 4px 11px;
+  border-radius: 50%;
+}
+.listPaginationController {
+  color: #fff;
+  background-color: #8c7d7d;
+  padding: 3px 6px 4px 4px;
+  border-radius: 50%;
+  font-size: 10px;
+}
