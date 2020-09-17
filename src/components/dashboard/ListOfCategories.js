@@ -1,4 +1,5 @@
 import React from "react";
+import Star from "../Star";
 import classes from "./ListOfCategories.module.css";
 
 const ListOfCategories = (props) => {
@@ -48,7 +49,7 @@ const ListOfCategories = (props) => {
                   Engineering
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  5 Star
+                  <Star />
                 </td>
               </tr>
             );
