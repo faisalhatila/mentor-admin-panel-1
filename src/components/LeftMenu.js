@@ -10,32 +10,37 @@ const LeftMenu = (props) => {
     },
     {
       id: 2,
-      title: "Mentees",
+      title: "Mentor",
+      image: "assets/img/leftMenu/report.png",
+    },
+    {
+      id: 2,
+      title: "Mentee",
       image: "assets/img/leftMenu/report.png",
     },
     {
       id: 3,
-      title: "Message",
+      title: "Booking List",
       image: "assets/img/leftMenu/services.png",
     },
     {
       id: 4,
-      title: "Services",
+      title: "Categories",
       image: "assets/img/leftMenu/mentees.png",
     },
     {
       id: 5,
-      title: "Report",
+      title: "Transactions",
       image: "assets/img/leftMenu/report.png",
     },
     {
       id: 6,
-      title: "Activity Log",
+      title: "Settings",
       image: "assets/img/leftMenu/services.png",
     },
     {
       id: 7,
-      title: "Settings",
+      title: "Report",
       image: "assets/img/leftMenu/services.png",
     },
   ];
