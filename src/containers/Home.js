@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { head } from "lodash";
+// import { Link } from "react-router-dom";
+// import { head } from "lodash";
 import LeftMenu from "../components/LeftMenu";
 import TopCard from "../components/dashboard/TopCard";
-import UpComingWebinars from "../components/dashboard/UpComingWebinars";
-import Invoices from "../components/dashboard/Invoices";
-import InvoiceReportTable from "../components/report/InvoiceReportTable";
+// import UpComingWebinars from "../components/dashboard/UpComingWebinars";
+// import Invoices from "../components/dashboard/Invoices";
+// import InvoiceReportTable from "../components/report/InvoiceReportTable";
 import GraphRow from "../components/dashboard/GraphtRow";
+import MentorList from "../components/dashboard/MentorList";
+import MenteeList from "../components/dashboard/MenteeList";
+import ListOfWebinars from "../components/dashboard/ListOfWebinars";
+import ListOfCategories from "../components/dashboard/ListOfCategories";
 
 const HomeContainer = () => {
   return (
@@ -27,11 +31,23 @@ const HomeContainer = () => {
             <GraphRow />
           </div>
           <div className="mt-4">
-            <UpComingWebinars />
+            <div className="row">
+              <MentorList />
+              <MenteeList />
+            </div>
           </div>
           <div className="mt-4">
-            <Invoices />
+            <div className="row">
+              <ListOfCategories />
+              <ListOfWebinars />
+            </div>
           </div>
+          {/* <div className="mt-4">
+            <UpComingWebinars />
+          </div> */}
+          {/* <div className="mt-4">
+            <Invoices />
+          </div> */}
         </div>
       </div>
       {/* <div className="col" style={{ flex: 3 }}>

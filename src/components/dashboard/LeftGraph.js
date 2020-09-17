@@ -4,26 +4,27 @@ import classes from "./LeftGraph.module.css";
 const LeftGraph = () => {
   const chartData = {
     labels: [
-      "Foods In",
-      "KFC",
-      "McDonalds",
-      "Mandi House",
-      "Al Sajjad",
-      "Al Baik",
-      "My Kolachi",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN",
+      // "My Kolachi",
     ],
     datasets: [
       {
-        label: "Sales",
-        data: [15000, 18000, 5000, 17000, 13000, 1800, 170],
+        label: "Revenue $",
+        data: [15000, 18000, 5000, 17000, 13000, 1800],
         backgroundColor: [
+          // "rgba(255, 99, 132, 0.6)",
           "rgb(54, 48, 144,0.3)",
           "rgba(54, 162, 235, 0.6)",
           "rgba(255, 206, 86, 0.6)",
           "rgba(75, 192, 192, 0.6)",
           "rgba(153, 102, 255, 0.6)",
           "rgba(255, 159, 64, 0.6)",
-          "rgba(255, 99, 132, 0.6)",
+          // "rgba(255, 99, 132, 0.6)",
         ],
       },
     ],

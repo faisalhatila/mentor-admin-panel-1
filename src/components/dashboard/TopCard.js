@@ -22,9 +22,9 @@ const TopCard = (props) => {
             classes.dashboardContentCard,
           ].join(" ")}
         >
-          <label>Mentees</label>
-          <label>100</label>
-          <label>
+          <label className="noMarginBottom">Mentees</label>
+          <label className="noMarginBottom">100</label>
+          <label className="noMarginBottom">
             <span>+3.48%</span> Since last month
           </label>
         </div>
