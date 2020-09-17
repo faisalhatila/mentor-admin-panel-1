@@ -14,6 +14,7 @@ import Settings from "../containers/Settings";
 import AddActivity from "../containers/AddActivity";
 import MentorList from "../containers/MentorList";
 import BookingList from "../containers/BookingList";
+import Categories from "../containers/Categories";
 const Router = (props) => {
   return (
     <Switch>
@@ -22,6 +23,7 @@ const Router = (props) => {
       <Route exact path="/mentor-list" component={MentorList} />
       <Route exact path="/mentees-list" component={MenteesList} />
       <Route exact path="/booking-list" component={BookingList} />
+      <Route exact path="/categories" component={Categories} />
       <Route exact path="/services" component={Services} />
       <Route exact path="/report" component={Report} />
       <Route exact path="/activity-log" component={ActivityLog} />

@@ -1,0 +1,24 @@
+.fitlerSearchRightIcon {
+  color: #fff;
+  background-color: #363090;
+  padding: 7px 7px 4px 8px;
+  border-radius: 50%;
+}
+.searchDiv {
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 15px;
+  padding: 3px 8px;
+}
+.searchInput {
+  border: none;
+}
+.searchInput:focus {
+  outline: none;
+}
+
+.selectDropdown {
+  border: none;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  padding: 3px 10px;
+  border-radius: 15px;
+}
