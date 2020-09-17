@@ -16,6 +16,8 @@ import MentorList from "../containers/MentorList";
 import BookingList from "../containers/BookingList";
 import Categories from "../containers/Categories";
 import Transactions from "../containers/Transactions";
+import ResetPassword from "../containers/ResetPassword";
+import Register from "../containers/Register";
 const Router = (props) => {
   return (
     <Switch>
@@ -32,7 +34,9 @@ const Router = (props) => {
       <Route exact path="/add-activity-log" component={AddActivity} />
       <Route exact path="/settings" component={Settings} />
       <PvtRoute exact path="/login" component={LoginContainer} />
-      <PvtRoute exact path="/login/:id" component={LoginContainer} />
+      <PvtRoute exact path="/reset-password" component={ResetPassword} />
+      <PvtRoute exact path="/register" component={Register} />
+      {/* <PvtRoute exact path="/login/:id" component={LoginContainer} /> */}
       <Route exact path="/404" component={PageNotFound} />
       <Route exact path="/*" component={() => <Redirect to="/404" />} />
     </Switch>
