@@ -1,38 +1,38 @@
 import React from "react";
-import classes from "./MenteeList.module.css";
-
-const MenteeList = (props) => {
+import Star from "../Star";
+import classes from "./MentorListTable.module.css";
+const MentorListTable = (props) => {
   return (
     <div className="col-6">
       <h4 style={{ fontSize: "16px" }} className="whiteBack p-3">
-        Mentee List
+        Mentor List
       </h4>
-      <table className={classes.UpComingWebinarsTable}>
+      <table className={classes.mentorListTable}>
         <thead>
           <tr className="">
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Mentee Name
+              Mentor Name
             </td>
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Phone
+              Course
             </td>
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Last Visit
+              Earn
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Paid
+              Reviews
             </td>
           </tr>
         </thead>
@@ -41,9 +41,7 @@ const MenteeList = (props) => {
             return (
               <tr
                 style={{ height: "50px" }}
-                className={[`whiteBack`, classes.UpComingWebinarsTableRow].join(
-                  " "
-                )}
+                className={[`whiteBack`, classes.mentorListTableRow].join(" ")}
               >
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   <div className="">
@@ -57,13 +55,13 @@ const MenteeList = (props) => {
                   </div>
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  84562015
+                  Physics
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  01/08/2020
+                  $1000.00
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  $100
+                  <Star />
                 </td>
               </tr>
             );
@@ -74,4 +72,4 @@ const MenteeList = (props) => {
   );
 };
 
-export default MenteeList;
+export default MentorListTable;

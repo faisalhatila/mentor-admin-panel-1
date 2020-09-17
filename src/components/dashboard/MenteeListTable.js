@@ -1,15 +1,13 @@
 import React from "react";
-import MenteesFilter from "./MenteesFilter";
-import classes from "./MenteesTable.module.css";
+import classes from "./MenteeListTable.module.css";
 
-const MenteesTable = () => {
+const MenteeListTable = (props) => {
   return (
-    <div>
-      <MenteesFilter />
-      <h4 style={{ fontSize: "16px" }} className="whiteBack p-3 mt-3">
-        My Mentees
+    <div className="col-6">
+      <h4 style={{ fontSize: "16px" }} className="whiteBack p-3">
+        Mentee List
       </h4>
-      <table className={classes.menteesListTable}>
+      <table className={classes.UpComingWebinarsTable}>
         <thead>
           <tr className="">
             <td
@@ -22,25 +20,19 @@ const MenteesTable = () => {
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Course
+              Phone
             </td>
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Member Since
+              Last Visit
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
-              Earn
-            </td>
-            <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
-              className="pt-2 pb-3"
-            >
-              Acount Status
+              Paid
             </td>
           </tr>
         </thead>
@@ -49,7 +41,9 @@ const MenteesTable = () => {
             return (
               <tr
                 style={{ height: "50px" }}
-                className={[`whiteBack`, classes.menteesListTableRow].join(" ")}
+                className={[`whiteBack`, classes.UpComingWebinarsTableRow].join(
+                  " "
+                )}
               >
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   <div className="">
@@ -63,21 +57,13 @@ const MenteesTable = () => {
                   </div>
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  Mechanical
+                  84562015
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  14 Jan 2020
+                  01/08/2020
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  $1000.00
-                </td>
-                <td style={{ fontSize: "12px", flex: 3 }}>
-                  <label className={classes.switch}>
-                    <input type="checkbox" />
-                    <span
-                      className={[classes.slider, classes.round].join(" ")}
-                    ></span>
-                  </label>
+                  $100
                 </td>
               </tr>
             );
@@ -88,4 +74,4 @@ const MenteesTable = () => {
   );
 };
 
-export default MenteesTable;
+export default MenteeListTable;

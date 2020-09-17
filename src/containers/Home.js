@@ -7,8 +7,8 @@ import TopCard from "../components/dashboard/TopCard";
 // import Invoices from "../components/dashboard/Invoices";
 // import InvoiceReportTable from "../components/report/InvoiceReportTable";
 import GraphRow from "../components/dashboard/GraphtRow";
-import MentorList from "../components/dashboard/MentorList";
-import MenteeList from "../components/dashboard/MenteeList";
+import MentorList from "../components/dashboard/MentorListTable";
+import MenteeList from "../components/dashboard/MenteeListTable";
 import ListOfWebinars from "../components/dashboard/ListOfWebinars";
 import ListOfCategories from "../components/dashboard/ListOfCategories";
 
