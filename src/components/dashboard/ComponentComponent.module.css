@@ -1,0 +1,16 @@
+.jRotate {
+  animation: myRotate 1s ease;
+  position: relative;
+  color: black;
+}
+
+@keyframes myRotate {
+  from {
+    /* transform: rotateX(-180deg); */
+    height: 0;
+  }
+  to {
+    /* transform: rotateX(0deg); */
+    height: 118.467px;
+  }
+}

@@ -1,0 +1,8 @@
+.userTitleDesc {
+  font-size: 10px;
+}
+.userAvatar {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+.paymentGatewayMainDiv {
+  border: solid 1px #ccc;
+  /* padding: 15px 25px; */
+}
+.formTitleDiv {
+  border-bottom: solid 1px #ccc;
+}
+.formTitle {
+  font-size: 20px;
+  padding: 15px 25px;
+}
+.formDiv {
+  padding: 15px 25px;
+}
+.paymentGatewayFormLabel {
+  color: #363090;
+  font-size: 12px;
+}
+.settingsFormLabel {
+  font-size: 11px;
+}
+.formInput {
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 1px 5px 1px #ccc;
+  padding: 5px 10px;
+}
+.formInput:focus {
+  outline: none !important;
+}
+.chooseFileLabel {
+  background-color: #d9d8ea;
+  min-width: 150px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.paymentGatewayActionButton {
+  min-width: 200px;
+  padding: 12px 0;
+  background-color: #d9d8ea;
+  border-radius: 25px;
+}
+.howToLabel {
+  color: #363090;
+  font-size: 11px;
+}

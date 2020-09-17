@@ -1,0 +1,14 @@
+.tabDiv {
+  border-bottom: solid 1px #ccc;
+}
+.settingsTab {
+  font-size: 27px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.activeTab {
+  background-color: #363090;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

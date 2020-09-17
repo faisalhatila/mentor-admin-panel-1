@@ -1,0 +1,29 @@
+.invoiceReportTable {
+  min-width: 100%;
+}
+.tableRescheduleButton {
+  background-color: #363090;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.tableCancelButton {
+  background-color: #e63c49;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.invoiceReportTableRow {
+  border-bottom: solid 1px #ccc;
+}
+.invoiceReportTableRow:hover {
+  background-color: #f9e6e6;
+}
+.checkMark {
+  color: #fff;
+  padding: 6px 5px;
+  border-radius: 50%;
+  background-color: #363090;
+}

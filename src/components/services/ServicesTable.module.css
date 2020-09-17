@@ -1,0 +1,29 @@
+.servicesTable {
+  min-width: 100%;
+}
+.tableRescheduleButton {
+  background-color: #363090;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.tableCancelButton {
+  background-color: #e63c49;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.servicessTableRow {
+  border-bottom: solid 1px #ccc;
+}
+.servicessTableRow:hover {
+  background-color: #f9e6e6;
+}
+.servicesScheduleButton {
+  background-color: #888;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}

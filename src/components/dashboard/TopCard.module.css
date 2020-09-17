@@ -1,0 +1,12 @@
+.dashboardTopCardMainDiv {
+  box-shadow: 0px 0px 5px 2px #ccc;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.cardIcon {
+  background-color: #8267f5;
+  color: #fff;
+  font-size: 50px;
+  padding: 16px 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.managePstsTable {
+  min-width: 100%;
+}
+.tableRescheduleButton {
+  background-color: #363090;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.tableCancelButton {
+  background-color: #e63c49;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+.managePostsTableRow {
+  border-bottom: solid 1px #ccc;
+}
+.managePostsTableRow:hover {
+  background-color: #f9e6e6;
+}
+.topicsText {
+  color: #06154c;
+  font-size: 11px;
+  font-family: sans-serif !important;
+}
