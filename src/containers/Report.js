@@ -11,8 +11,10 @@ const Report = () => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
-          <h3 className="noMarginBottom">Report</h3>
-          <h3 className="noMarginBottom">Dashboard / Invoice Report</h3>
+          <h3 className="noMarginBottom mainCoverHeading">Report</h3>
+          <label className="noMarginBottom mainCoverSubHeading">
+            Dashboard / Invoice Report
+          </label>{" "}
           <div className="mt-4">
             <InvoiceReportTable />
           </div>

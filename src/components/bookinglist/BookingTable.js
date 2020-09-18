@@ -59,7 +59,11 @@ const BookingTable = () => {
                     <img
                       alt="user"
                       src="assets/img/dashboard/userAvatar.png"
-                      style={{ maxWidth: "28px", borderRadius: "50%" }}
+                      style={{
+                        maxWidth: "38px",
+                        borderRadius: "50%",
+                        border: "solid 2px #000",
+                      }}
                       className="mr-2"
                     />
                     <label className="noMarginBottom">Larry Guerrero</label>
@@ -73,7 +77,11 @@ const BookingTable = () => {
                     <img
                       alt="user"
                       src="assets/img/dashboard/userAvatar.png"
-                      style={{ maxWidth: "28px", borderRadius: "50%" }}
+                      style={{
+                        maxWidth: "38px",
+                        borderRadius: "50%",
+                        border: "solid 2px #000",
+                      }}
                       className="mr-2"
                     />
                     <label className="noMarginBottom">Larry Guerrero</label>

@@ -6,7 +6,43 @@
 .leftMenuMainDiv {
   background-color: #e8e8e8;
 }
+.navLinksDiv {
+}
 .leftSpan {
   background-color: #363090;
   width: 10px;
+  transition: all 0.5s ease;
 }
+.leftSpanFullWidth {
+  background-color: #363090;
+  transition: all 0.5s ease;
+  min-width: 70%;
+  /* z-index: 100; */
+  position: absolute;
+  height: 26px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.navLinksDiv:hover .leftSpan {
+  transition: all 0.5s ease;
+  min-width: 70%;
+  /* z-index: 100; */
+  position: absolute;
+  height: 26px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* .navLinksDiv:hover .leftSpan {
+  animation-name: expand;
+  animation-duration: 2s;
+}
+
+@keyframes expand {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+} */

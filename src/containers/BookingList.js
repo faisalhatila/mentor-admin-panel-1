@@ -16,8 +16,10 @@ const BookingList = (props) => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
-          <h3 className="noMarginBottom">Bookings</h3>
-          <h3 className="noMarginBottom">Dashboard/ Booking</h3>
+          <h3 className="noMarginBottom mainCoverHeading">Bookings</h3>
+          <label className="noMarginBottom mainCoverSubHeading">
+            Dashboard/ Booking
+          </label>
           <div className="mt-4">
             <BookingTable />
           </div>

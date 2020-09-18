@@ -66,7 +66,11 @@ const TransactionsTable = () => {
                     <img
                       alt="user"
                       src="assets/img/dashboard/userAvatar.png"
-                      style={{ maxWidth: "28px", borderRadius: "50%" }}
+                      style={{
+                        maxWidth: "38px",
+                        borderRadius: "50%",
+                        border: "solid 2px #000",
+                      }}
                       className="mr-2"
                     />
                     <label className="noMarginBottom">Larry Guerrero</label>
@@ -81,9 +85,9 @@ const TransactionsTable = () => {
                   ></i>
                 </td>
                 <td style={{ fontSize: "12px", flex: 3 }}>
-                  <div className="d-flex justify-content-between">
+                  <div className="d-flex">
                     <label
-                      style={{ flex: 10 }}
+                      // style={{ flex: 10 }}
                       className={[
                         `mr-2`,
                         `text-center`,
@@ -93,9 +97,9 @@ const TransactionsTable = () => {
                     >
                       Edit
                     </label>
-                    <span className={{ flex: 1 }}></span>
+                    {/* <span className={{ flex: 1 }}></span> */}
                     <label
-                      style={{ flex: 10 }}
+                      // style={{ flex: 10 }}
                       className={[
                         `text-center`,
                         `noMarginBottom`,

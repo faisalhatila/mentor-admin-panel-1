@@ -67,7 +67,11 @@ const InvoiceReportTable = () => {
                     <img
                       alt="user"
                       src="assets/img/dashboard/userAvatar.png"
-                      style={{ maxWidth: "28px", borderRadius: "50%" }}
+                      style={{
+                        maxWidth: "38px",
+                        borderRadius: "50%",
+                        border: "solid 2px #000",
+                      }}
                       className="mr-2"
                     />
                     <label className="noMarginBottom">Larry Guerrero</label>
@@ -82,7 +86,7 @@ const InvoiceReportTable = () => {
                   ></i>
                 </td>{" "}
                 <td style={{ fontSize: "12px", flex: 3 }}>
-                  <div className="d-flex justify-content-between">
+                  <div className="d-flex">
                     <label
                       className={[
                         `mr-2`,
@@ -90,18 +94,18 @@ const InvoiceReportTable = () => {
                         `noMarginBottom`,
                         classes.tableRescheduleButton,
                       ].join(" ")}
-                      style={{ flex: 80 }}
+                      // style={{ flex: 80 }}
                     >
                       Re-Schedule
                     </label>
-                    <span style={{ flex: 1 }}></span>
+                    {/* <span style={{ flex: 1 }}></span> */}
                     <label
                       className={[
                         `text-center`,
                         `noMarginBottom`,
                         classes.tableCancelButton,
                       ].join(" ")}
-                      style={{ flex: 80 }}
+                      // style={{ flex: 80 }}
                     >
                       Cancel
                     </label>

@@ -26,10 +26,12 @@ const Settings = () => {
             handleActiveSettingTab={handleActiveSettingTab}
           />
           <div className="mt-5">
-            <h3 className="noMarginBottom">{activeSettingTab}</h3>
-            <h3 className="noMarginBottom">
-              Dashboard / Setting / {activeSettingTab}
+            <h3 className="noMarginBottom mainCoverHeading">
+              {activeSettingTab}
             </h3>
+            <label className="noMarginBottom mainCoverSubHeading">
+              Dashboard / Setting / {activeSettingTab}
+            </label>
           </div>
           {activeSettingTab === "General Settings" ? (
             <div className="mt-4">

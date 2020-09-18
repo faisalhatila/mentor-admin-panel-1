@@ -14,8 +14,10 @@ const ActivityLog = () => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
-          <h3 className="noMarginBottom">Activity Log</h3>
-          <h3 className="noMarginBottom">Dashboard / Activity Log</h3>
+          <h3 className="noMarginBottom mainCoverHeading">Activity Log</h3>
+          <label className="noMarginBottom mainCoverSubHeading">
+            Dashboard / Activity Log
+          </label>
           {/* <div className="row justify-content-between mt-4">
             {[...Array(3)].map((i) => {
               return <TopCard />;

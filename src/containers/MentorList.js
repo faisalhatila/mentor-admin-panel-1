@@ -15,8 +15,10 @@ const MentorList = (props) => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
-          <h3 className="noMarginBottom">List of Mentors</h3>
-          <h3 className="noMarginBottom">Dashboard/ Mentors</h3>
+          <h3 className="noMarginBottom mainCoverHeading">List of Mentors</h3>
+          <label className="noMarginBottom mainCoverSubHeading">
+            Dashboard/ Mentors
+          </label>
           <div className="mt-4">
             <MentorsTable />
           </div>

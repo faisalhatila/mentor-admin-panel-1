@@ -79,14 +79,14 @@ input:checked + .slider:before {
 .tableRescheduleButton {
   background-color: #363090;
   color: #fff;
-  padding: 3px 5px;
+  padding: 6px 5px;
   border-radius: 3px;
   min-width: 100px;
 }
 .tableCancelButton {
   background-color: #e63c49;
   color: #fff;
-  padding: 3px 5px;
+  padding: 6px 5px;
   border-radius: 3px;
   min-width: 100px;
 }

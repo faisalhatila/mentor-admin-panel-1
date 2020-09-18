@@ -14,8 +14,10 @@ const MenteesList = (props) => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
-          <h3 className="noMarginBottom">List of Mentees</h3>
-          <h3 className="noMarginBottom">Dashboard/ Mentees</h3>
+          <h3 className="noMarginBottom mainCoverHeading">List of Mentees</h3>
+          <label className="noMarginBottom mainCoverSubHeading">
+            Dashboard/ Mentees
+          </label>
           <div className="mt-4">
             <MenteesTable />
           </div>
