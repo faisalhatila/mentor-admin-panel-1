@@ -11,25 +11,25 @@ const MentorListTable = (props) => {
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "90px" }}
               className="pt-2 pb-3"
             >
               Mentor Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "80px" }}
               className="pt-2 pb-3"
             >
               Course
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", width: "90px" }}
               className="pt-2 pb-3"
             >
               Earn
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "90px" }}
               className="pt-2 pb-3"
             >
               Reviews

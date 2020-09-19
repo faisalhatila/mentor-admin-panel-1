@@ -11,19 +11,19 @@ const MenteeListTable = (props) => {
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Mentee Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Phone
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Last Visit
