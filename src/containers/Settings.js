@@ -8,7 +8,7 @@ import PaymentGateway from "../components/settings/PaymentGateway";
 import SocialLogin from "../components/settings/SocialLogin";
 import TabNav from "../components/settings/TabNav";
 
-const Settings = () => {
+const Settings = (props) => {
   const [activeSettingTab, setActiveSettingTab] = useState("General Settings");
 
   const handleActiveSettingTab = (tab) => {
@@ -17,7 +17,7 @@ const Settings = () => {
   return (
     <div className="home-container row contentContainer">
       <div className="col" style={{ flex: 1 }}>
-        <LeftMenu />
+        <LeftMenu path={props.match.path} />
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">

@@ -3,11 +3,11 @@ import UpComingWebinars from "../components/dashboard/UpComingWebinars";
 import LeftMenu from "../components/LeftMenu";
 import InvoiceReportTable from "../components/report/InvoiceReportTable";
 
-const Report = () => {
+const Report = (props) => {
   return (
     <div className="home-container row contentContainer">
       <div className="col" style={{ flex: 1 }}>
-        <LeftMenu />
+        <LeftMenu path={props.match.path} />
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">

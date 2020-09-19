@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 import classes from "./LeftMenu.module.css";
 
 const LeftMenu = (props) => {
+  const { path } = props;
+  const [activeNav, setActiveNav] = useState(path);
+  const [hoverNav, setHoverNav] = useState(path);
+  const handleHoverNav = (nav) => {
+    setHoverNav(nav);
+  };
+  const handleHoverNavOut = () => {
+    setHoverNav(path);
+  };
   const handleActiveNav = (nav) => {
     setActiveNav(nav);
     console.log(activeNav);
@@ -10,7 +19,7 @@ const LeftMenu = (props) => {
     console.log(nav);
     console.log("##################################");
   };
-  const [activeNav, setActiveNav] = useState(0);
+
   const menuItem = [
     {
       id: 0,
@@ -77,24 +86,25 @@ const LeftMenu = (props) => {
     },
   ];
   return (
-    <div className={[`mt-5`, `col`, classes.leftMenuMainDiv].join(" ")}>
+    <div className={[`mt-5`, classes.leftMenuMainDiv].join(" ")}>
       <div className={`pt-5`}>
         {menuItem.map((item, i) => {
           return (
             <Link
-              onClick={() => handleActiveNav(item.id)}
-              onMouseEnter={() => handleActiveNav(item.id)}
+              // onClick={() => handleActiveNav(item.id)}
+              onMouseEnter={() => handleHoverNav(item.link)}
+              onMouseLeave={handleHoverNavOut}
               style={{ color: "#7B7A66" }}
               to={item.link}
               key={i}
             >
               <div
                 className={[`d-flex`, `mt-4`, classes.navLinksDiv].join(" ")}
-                onClick={() => handleActiveNav(item.id)}
+                // onClick={() => handleActiveNav(item.id)}
               >
                 <span
                   className={
-                    item.id === activeNav
+                    item.link === path
                       ? classes.leftSpanFullWidth
                       : classes.leftSpan
                   }
@@ -102,13 +112,19 @@ const LeftMenu = (props) => {
                 <div style={{ zIndex: 100 }}>
                   <img
                     alt={item.title}
-                    src={item.id === activeNav ? item.imageHvr : item.image}
-                    className=" ml-5"
+                    src={
+                      item.link === path || item.link === hoverNav
+                        ? item.imageHvr
+                        : item.image
+                    }
+                    className=" ml-4"
                     style={{ maxWidth: "15px" }}
                   />
                   <label
-                    className={`ml-4 noMarginBottom ${
-                      item.id === activeNav ? `whiteFont` : null
+                    className={`ml-4 noMarginBottom navLinkText ${
+                      item.link === path || item.link === hoverNav
+                        ? `whiteFont`
+                        : null
                     }`}
                   >
                     {/* <Link style={{ color: "#7B7A66" }} to={item.link}> */}

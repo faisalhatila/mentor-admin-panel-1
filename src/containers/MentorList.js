@@ -11,7 +11,7 @@ const MentorList = (props) => {
   return (
     <div className="profile-container row contentContainer">
       <div className="col" style={{ flex: 1 }}>
-        <LeftMenu />
+        <LeftMenu path={props.match.path} />
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
