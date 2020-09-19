@@ -100,6 +100,7 @@ const LeftMenu = (props) => {
             >
               <div
                 className={[`d-flex`, `mt-4`, classes.navLinksDiv].join(" ")}
+                style={{ cursor: "pointer" }}
                 // onClick={() => handleActiveNav(item.id)}
               >
                 <span
@@ -121,6 +122,7 @@ const LeftMenu = (props) => {
                     style={{ maxWidth: "15px" }}
                   />
                   <label
+                    style={{ cursor: "pointer" }}
                     className={`ml-4 noMarginBottom navLinkText ${
                       item.link === path || item.link === hoverNav
                         ? `whiteFont`
